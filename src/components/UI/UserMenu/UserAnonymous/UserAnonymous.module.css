@@ -1,0 +1,9 @@
+.Invalid {
+    background-color: mistyrose;
+}
+
+.User {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}

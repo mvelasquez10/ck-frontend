@@ -1,0 +1,39 @@
+.SideDrawer {
+    position: fixed;
+    max-width: 70%;
+    height: 100%;
+    top: 0;
+    display: flex;
+    flex-flow: column;
+    z-index: 200;
+    background-color: whitesmoke;
+    padding: 16px 16px 32px 16px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-out;    
+    user-select: none;
+}
+
+
+.SideDrawer.SideDrawerLeft {
+    left: 0;
+}
+
+.OpenLeft {
+    transform: translateX(0);
+}
+
+.CloseLeft {
+    transform: translateX(-100%);
+}
+
+.SideDrawer.SideDrawerRight {
+    right: 0;
+}
+
+.OpenRight {
+    transform: translateX(0);
+}
+
+.CloseRight {
+    transform: translateX(100%);
+}

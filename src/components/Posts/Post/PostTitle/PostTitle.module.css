@@ -1,0 +1,9 @@
+.Info {
+    font-size: inherit;
+}
+
+@media (max-width: 600px) {
+    .Info {
+        font-size: 12px;
+    }
+}

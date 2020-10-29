@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont,'Lato', 'Montserrat', 'Roboto Mono', 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: gainsboro;
+  height: 100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+select {
+  width: auto;
+  padding: 10px;
+  font-size: inherit;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  height: auto;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  outline: none;
+}
+
+select option {
+  background: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 1px;
+  cursor: pointer;
+}
+
+select::selection { color: red; }
+
+select::-ms-expand {
+  display: none;
+}
+
+input {
+  background-color: white;
+  border: 1px solid #ddd;
+  margin: 0px;
+  padding: 6px 6px;
+  border-radius: 6px;
+  font-family: inherit;  
+  font-size: inherit;  
+  outline: none;
+}
+
+input:invalid {
+  background-color: mistyrose;
+}
+
+button {
+  background-color: white;
+  border: 1px solid #ddd;
+  margin: 10px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-family: inherit;  
+  font-size: inherit;  
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover, button:focus {
+  background-color: #ddd;  
+}
+
+button:active {
+  background-color: lightgrey;  
+}
+
+button:disabled {
+  background-color: white;
+  cursor: not-allowed;
+}
+
+textarea  {
+  width: 100%;
+  word-wrap: normal;
+  overflow: auto;
+  border: 1px solid lightgrey;
+  border-radius: 5px;
+  text-align: inherit;
+  font-family: inherit;
+  white-space: pre-wrap;
+  box-sizing: border-box;
+  outline: none;
+  resize: vertical;
+}

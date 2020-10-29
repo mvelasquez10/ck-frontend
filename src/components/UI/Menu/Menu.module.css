@@ -1,0 +1,62 @@
+ .Button {
+    padding: 14px;
+    width: 58px;
+    margin: 0;
+    font-size: 24px;
+    border: none;
+    border-radius:  50px;
+    text-align: center;
+  }
+
+  .Dropdown {
+    position: relative;
+    float: right;
+    display: block;
+  }
+
+  .Content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    cursor: pointer;
+    width: 100%;
+  }
+
+  .ContentRight {    
+    right: 1px;
+  }
+
+  .Content span {
+    padding: 12px 20px;
+    display: block;
+  }
+  
+  .Content span {    
+    text-align: start;
+  }
+
+  .ContentRight span {    
+    text-align: end;
+  }
+
+  .ContentDisabled {
+    color: gray;
+    cursor: not-allowed;
+  }
+
+  .ContentEnable {
+    color: black;
+  }
+
+  .Display {
+    display: block;
+  }
+
+  .Showing {
+    background-color: rgb(233, 233, 233);
+  }
+  
+  .Content span:hover {background-color: rgb(233, 233, 233);}

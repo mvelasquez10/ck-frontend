@@ -1,0 +1,28 @@
+.Filter {
+    border: solid #ddd;
+    border-width: 0;
+    margin: 5px 0;
+    min-width: 220px;
+    display: flex;  
+    flex-flow: column;
+}
+
+.Title {
+    justify-content: space-between;
+    display: inherit;
+    width: 100%;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.ResetButton {
+    border-radius: 50px;
+    background-color: rgb(240, 240, 240);
+    border-color: rgb(240, 240, 240);
+    color: gray;
+    font-size: x-small;
+}
+
+.ResetButton:disabled {
+    visibility: hidden;
+}

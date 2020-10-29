@@ -1,0 +1,22 @@
+.Main {
+    text-align: center;
+}
+
+.Title {
+    width: 100%;
+    background-color: whitesmoke;
+    padding: 2px;
+    color: dimgray;
+    position: fixed;
+    z-index: 3;
+    top: 0px;
+}
+
+@media screen and (max-width: 600px) {
+    .Title {
+        font-size: 10px;
+    }
+    .Main {
+        margin-top: 56px;
+    }
+}
